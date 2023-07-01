@@ -1,4 +1,4 @@
-# SudokuSolver
+# Sudoku-Solver
 Sudoku-Solver in C using backtracking.
 
 # Setup Boards
@@ -8,6 +8,5 @@ You can set up 9x9 Boards within main.c. To produce an empty field you have to u
 # Compiling & Starting
 You can compile and run the solver with
 ```
-gcc main.c init.c backtracking.c -o sudokuSolver
-./sudokuSolver
+gcc main.c init.c backtracking.c -o sudokuSolver && ./sudokuSolver
 ```
